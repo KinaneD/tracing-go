@@ -7,8 +7,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/Vinelab/tracing-go"
-	"github.com/Vinelab/tracing-go/formats"
+	"github.com/KinaneD/tracing-go"
+	"github.com/KinaneD/tracing-go/formats"
 	"github.com/google/uuid"
 	openzipkin "github.com/openzipkin/zipkin-go"
 	"github.com/openzipkin/zipkin-go/model"

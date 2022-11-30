@@ -4,8 +4,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/Vinelab/tracing-go"
-	"github.com/Vinelab/tracing-go/drivers/zipkin/propagation"
+	"github.com/KinaneD/tracing-go"
+	"github.com/KinaneD/tracing-go/drivers/zipkin/propagation"
 )
 
 // HTTPExtractor manages trace extraction from HTTP carrier

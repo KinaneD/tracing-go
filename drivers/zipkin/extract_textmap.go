@@ -3,8 +3,8 @@ package zipkin
 import (
 	"log"
 
-	"github.com/Vinelab/tracing-go"
-	"github.com/Vinelab/tracing-go/drivers/zipkin/propagation"
+	"github.com/KinaneD/tracing-go"
+	"github.com/KinaneD/tracing-go/drivers/zipkin/propagation"
 )
 
 // TextMapExtractor manages trace extraction from TextMap carrier

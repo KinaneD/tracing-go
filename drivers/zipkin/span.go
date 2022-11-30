@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Vinelab/tracing-go"
+	"github.com/KinaneD/tracing-go"
 	"github.com/openzipkin/zipkin-go"
 )
 

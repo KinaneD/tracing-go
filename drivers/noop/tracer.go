@@ -1,7 +1,7 @@
 package noop
 
 import (
-	"github.com/Vinelab/tracing-go"
+	"github.com/KinaneD/tracing-go"
 )
 
 // Tracer is the tracing implementation for Zipkin. It should be initialized using NewTracer method.

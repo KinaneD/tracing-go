@@ -9,9 +9,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Vinelab/tracing-go"
-	"github.com/Vinelab/tracing-go/formats"
-	"github.com/Vinelab/tracing-go/support/slice"
+	"github.com/KinaneD/tracing-go"
+	"github.com/KinaneD/tracing-go/formats"
+	"github.com/KinaneD/tracing-go/support/slice"
 	"github.com/go-chi/chi/middleware"
 )
 
