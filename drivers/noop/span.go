@@ -1,7 +1,7 @@
 package noop
 
 import (
-	"github.com/Vinelab/tracing-go"
+	"github.com/KinaneD/tracing-go"
 )
 
 // Span encapsulates the state of logical operation it represents

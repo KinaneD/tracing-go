@@ -60,7 +60,7 @@ This package was tested on **Go >= 1.12**. Although not a requirement, it would 
 First, install the package using `go get`:
 
 ```sh
-go get github.com/Vinelab/tracing-go
+go get github.com/KinaneD/tracing-go
 ```
 
 After installation, you need to provision a singleton Tracer instance. Here is a brief example that also illustrates how you can conditionally select driver based on environment variables:
@@ -72,9 +72,9 @@ import (
 	"log"
 	"os"
 
-	"github.com/Vinelab/tracing-go"
-	"github.com/Vinelab/tracing-go/drivers/noop"
-	"github.com/Vinelab/tracing-go/drivers/zipkin"
+	"github.com/KinaneD/tracing-go"
+	"github.com/KinaneD/tracing-go/drivers/noop"
+	"github.com/KinaneD/tracing-go/drivers/zipkin"
 )
 
 var (
@@ -242,7 +242,7 @@ package main
 
 import (
 	"github.com/go-chi/chi"
-	"github.com/Vinelab/tracing-go/middleware"
+	"github.com/KinaneD/tracing-go/middleware"
 )
 
 func main() {
@@ -291,7 +291,7 @@ Of course, you may not need to do this manually because this package already inc
 The second parameter is a format descriptor that tells us how to deserialize tracing headers from given carrier. By default, the following formats are supported:
 
 ```go
-import "github.com/Vinelab/tracing-go/formats"
+import "github.com/KinaneD/tracing-go/formats"
 
 spanCtx, err := Trace.Extract(&carrier, formats.TextMap)
 spanCtx, err := Trace.Extract(&carrier, formats.HTTP)
@@ -324,7 +324,7 @@ ch.Publish(exchangeName, routingKey, false, false, msg)
 By default, the following formats are supported:
 
 ```go
-import "github.com/Vinelab/tracing-go/formats"
+import "github.com/KinaneD/tracing-go/formats"
 
 err := Trace.Inject(&carrier, formats.TextMap)
 err := Trace.Inject(&carrier, formats.HTTP)

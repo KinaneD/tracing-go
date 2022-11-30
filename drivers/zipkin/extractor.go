@@ -1,7 +1,7 @@
 package zipkin
 
 import (
-	"github.com/Vinelab/tracing-go"
+	"github.com/KinaneD/tracing-go"
 	openzipkin "github.com/openzipkin/zipkin-go"
 )
 

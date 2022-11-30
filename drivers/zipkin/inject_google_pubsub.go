@@ -4,8 +4,8 @@ import (
 	"log"
 
 	"cloud.google.com/go/pubsub"
-	"github.com/Vinelab/tracing-go"
-	"github.com/Vinelab/tracing-go/drivers/zipkin/propagation"
+	"github.com/KinaneD/tracing-go"
+	"github.com/KinaneD/tracing-go/drivers/zipkin/propagation"
 	"github.com/openzipkin/zipkin-go/model"
 )
 
